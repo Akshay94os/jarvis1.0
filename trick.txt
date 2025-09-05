@@ -1,0 +1,24 @@
+ webbrowser.open("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=81fcb5c92024c43a7b557705234e000")
+ #nfor open any link
+
+for input in speak
+   query = takeCommand().lower()
+    if "yes" in query:
+for click keyboard button
+             elif "click my photo" in query:
+                    pyautogui.press("super")
+                    pyautogui.typewrite("camera")
+                    pyautogui.press("enter")
+                    pyautogui.sleep(2)
+                    speak("SMILE")
+                    pyautogui.press("enter")
+
+problem 1
+    api key infile of news and calculatenumber
+
+#notification
+                    notification.notify(
+                        title = "IPL SCORE :- ",
+                        message = f"{team1} : {team1_score}\n {team2} : {team2_score}",
+                        timeout = 15
+                    )
